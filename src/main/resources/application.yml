@@ -1,0 +1,50 @@
+server:
+  port: 8080
+
+rest:
+  auth-open : true # ���Ϊtrue������JWT����֤
+
+jwt:
+  header: Authorization   #http����ͷ����Ҫ���ֶ�
+  secret: mySecret        #jwt��Կ
+  expiration: 604800      #7�� ��λ:��
+  md5-key: randomKey      #md5���ܻ���key
+
+mybatis-plus:
+  mapper-locations: classpath*:com/example/xujing/**/xml/*Mapper.xml
+  global-config:
+    id-type: 0
+    db-column-underline: false
+    refresh-mapper: true
+
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/studay_practise?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=false&serverTimezone=UTC
+    username: root
+    password: 123456
+    filters: log4j,wall,mergeStat
+
+
+logging:
+  level.root: info
+  level.com.example.xujing: debug
+  path: logs/
+  file: practise.log
+
+
+film:
+  img-pre: http://img.nextfilm.cn/
+
+order:
+  file-path-pre : F:/workSpace/next_workspace/imags/
+  alipay-callback-path : http://nextfilm.natapp1.cc/order/alipay/callback
+thymeleaf:
+  cache: false
+  prefix:  classpath:/templates/
+  check-template-location: true
+  suffix: .html
+  encoding: utf-8
+  mode: HTML
+
+mvc:
+  static-path-pattern: /static/**

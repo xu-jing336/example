@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.xujing.brush_questions.dao.mapper.UserTMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.xujing.brush_questions.dao.entity.UserT">
+        <id column="UUID" property="uuid" />
+        <result column="user_name" property="userName" />
+        <result column="user_pwd" property="userPwd" />
+    </resultMap>
+    <select id="findByName" resultType="com.example.xujing.brush_questions.example.dao.entity.User">
+        select * from
+    </select>
+</mapper>

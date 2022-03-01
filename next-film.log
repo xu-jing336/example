@@ -1,0 +1,12 @@
+2022-02-25 23:26:18.583  INFO 51084 --- [main] c.e.x.b.s.user.UserServiceImplTest       : Starting UserServiceImplTest on DESKTOP-IJ13DGL with PID 51084 (started by xujing in F:\workspace\next_workspace\brush_questions)
+2022-02-25 23:26:18.584  INFO 51084 --- [main] c.e.x.b.s.user.UserServiceImplTest       : No active profile set, falling back to default profiles: default
+2022-02-25 23:26:22.230  INFO 51084 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c52fdd68] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-02-25 23:26:23.577  INFO 51084 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-02-25 23:26:25.692  INFO 51084 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2022-02-25 23:26:26.708  INFO 51084 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-02-25 23:26:27.764  INFO 51084 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-02-25 23:26:27.849  INFO 51084 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-02-25 23:26:27.968  INFO 51084 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-02-25 23:26:28.317  INFO 51084 --- [main] c.e.x.b.s.user.UserServiceImplTest       : Started UserServiceImplTest in 12.412 seconds (JVM running for 14.53)
+2022-02-25 23:26:29.876  INFO 51084 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-02-25 23:26:29.909  INFO 51084 --- [Thread-3] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
